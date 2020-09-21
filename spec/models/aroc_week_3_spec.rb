@@ -27,7 +27,7 @@ describe 'ActiveRecord Obstacle Course, Week 3' do
     # ------------------------------------------------------------
 
     # ------------------ Using ActiveRecord ----------------------
-    # Solution goes here
+    users = User.where("items.id = #{@item_8.id}")
     # ------------------------------------------------------------
 
     # Expectation
